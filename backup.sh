@@ -7,4 +7,3 @@ sudo cp $path/ABCD.exe $path/ABCD.exe_$date.exe
 sudo cp -p $path/ABCD_$date.exe /home/ec2-user/jenkinsBackup
 make clean
 sudo rm -rf ABCD_$date.exe ABCD.exe
-

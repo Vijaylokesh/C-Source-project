@@ -7,3 +7,4 @@ sudo cp $path/ABCD.exe $path/ABCD_$date.exe
 sudo cp -p $path/ABCD_$date.exe /home/ec2-user/jenkins
 make clean
 sudo rm -rf ABCD_$date.exe ABCD.exe
+ls 
